@@ -1,6 +1,6 @@
-.container {
-  padding: 0;
-  margin: 0 auto;
+.faq {
+  /* padding: 4em; */
+  /* margin: 4em; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,8 +8,14 @@
 
 .question {
   background-color: antiquewhite;
-  opacity: 30%;
+  opacity: 70%;
   border: 7px solid;
   border-radius: 5%;
   padding: 12px;
+  min-width: 100vh;
 }
+
+.question > h4, p {
+  color: black;
+}
+
